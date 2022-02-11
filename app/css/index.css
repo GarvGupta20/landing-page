@@ -1,0 +1,206 @@
+/*always starts the code with writing the mlost basic html and css code */
+
+
+html {
+  box-sizing: border-box;
+  font-family:'Public Sans', sans-serif;
+
+
+
+*:after,*:before {
+    box-sizing:inherit;
+}
+  /*this property makes the div width same if width property isset to same and then adjust the same padding and margin very essential property to keeo the sites structural*/
+}
+
+body {
+  font-size:1.25rem;
+  padding:0;
+  margin:0;
+  line-height:1.5;
+
+
+
+}
+
+/* we should be seeting for all tye lemnts that are really not very rare*/
+
+a,a:hover,a:visited {
+  text-decoration:none;
+}
+
+nav {
+  padding:22px;
+  padding-left:28px;
+}
+
+
+
+button {
+       border-radius:50px;
+       border:0
+
+}
+
+
+.flex-box {          /*this would be a classic flex box class that is usable*/
+  display:flex;
+  flex-directon:column;
+}
+
+
+/*here we would be starting our code wth building a lot of  more flex classes */
+
+.jc-flex-sb {
+  justify-content:space-between;
+
+}
+
+.jc-flex-c {
+  justify-content:center;
+}
+
+.jc-flex-ai {
+  align-items:center;
+}
+
+
+.logo {
+  margin-top:8px;
+}
+
+.hamburger {
+display:block;
+width:25px;
+height:4px;
+background-color: hsl(233, 26%, 24%);
+margin-bottom:4px;
+
+}
+
+.hammenu:hover .hamburger {
+  margin-top:5px;
+}
+
+
+.open {
+  display:none;
+}
+
+
+.close {
+    display:block;
+
+}
+
+.hammenu-none {
+  display:none;
+}
+
+
+
+.navlinks {
+
+  color: hsl(233, 8%, 62%);
+  margin-right:25px;
+  font-size:1rem;
+  padding-bottom: 22px;
+
+}
+
+.navlinks:hover {
+  border-bottom: solid hsl(136, 65%, 51%);
+  border-width:1px;
+  transition-property: border-bottom;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+
+.navbutton {
+   width: 140px;
+   height: 40px;
+   cursor:pointer;
+   background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+   margin-right:20px;
+}
+
+.navbutton a {
+   color: hsl(0, 0%, 100%);
+   font-weight: 400;
+}
+
+
+.navbutton:hover {
+  opacity:0.75;
+}
+
+
+.hamburgerdiv {
+}
+
+.menU {
+  display:none;
+}
+
+
+
+
+ .menu {
+  display:block;
+  background-color:#F8F0DF;
+  width: 85%;
+  margin:auto;
+  opacity:0.8;
+  text-align:center;
+  border-radius:4%;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding:25px;
+}
+
+.menu li {
+  padding: 12px 0px;
+}
+
+.menu a {
+  color: #000000;
+  font-weight:500;
+}
+
+.menu a:hover {
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+/*reponsiveness*/
+
+@media (max-width:767px)
+{
+  .hidemobile {
+    display:none;
+  }
+}
+
+
+@media (min-width:768px)
+{
+  .hidedesktop {
+    display:none;
+  }
+}
+
+@media (min-width:1281px)
+{
+  .hidedesktop {
+    display:none;
+  }
+}
